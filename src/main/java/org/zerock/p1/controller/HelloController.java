@@ -17,12 +17,8 @@ public class HelloController {
 
     }
 
-    @GetMapping("/hello")
+    @GetMapping("/doB")
     public void doB() {
-
-
         log.info("doB hello............");
-
-
     }
 }
