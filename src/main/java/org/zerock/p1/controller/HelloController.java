@@ -27,4 +27,9 @@ public class HelloController {
         log.info("doC hello............");
     }
 
+    @GetMapping("/doD")
+    public void doD() {
+        log.info("ZK202308A doD hello............");
+    }
+
 }
