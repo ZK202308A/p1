@@ -21,4 +21,10 @@ public class HelloController {
     public void doB() {
         log.info("doB hello............");
     }
+
+    @GetMapping("/doC")
+    public void doC() {
+        log.info("doC hello............");
+    }
+
 }
