@@ -32,4 +32,10 @@ public class HelloController {
         log.info("ZK202308A doD hello............");
     }
 
+    @GetMapping("/doCC")
+    public void doCC() {
+        log.info("doCC hello............");
+    }
+
+
 }
